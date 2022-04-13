@@ -1,0 +1,33 @@
+@media screen and (min-width: 600px){
+  
+    .bar{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    .bar{
+        direction: rtl;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        background-image: url(b.jpg);
+        background-size: cover;
+        justify-content: space-between;
+        height: 10vh;
+        width: 100vh;
+        transition: all 4s;
+        
+    }
+
+    .bar:hover{
+        color: black;
+        height: 100vh;
+
+ 
+    }
+}
